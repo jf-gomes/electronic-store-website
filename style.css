@@ -74,11 +74,6 @@ header{
     flex-wrap: wrap;
 }
 
-#first-section-content img{
-    width: 600px;
-    height: 400px;
-}
-
 #first-section-text{
     max-width: 600px;
     font-size: 1.3em;
@@ -278,9 +273,10 @@ header{
     padding: 1rem;
 }
 
-#pictures{
+#accessories-pictures{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 2rem;
 }
 
@@ -321,6 +317,7 @@ header{
     display: flex;
     gap: 2rem;
     color: var(--blue);
+    flex-wrap: wrap;
 }
 
 #accessories-brands p:hover{
